@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        barrio: ['var(--font-barrio)'],
+        moolah: ['var(--font-moolah)'],
       },
       colors: {
         primary: {

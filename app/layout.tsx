@@ -8,6 +8,7 @@ const mooLahLah = Moo_Lah_Lah({
   weight: '400',
   subsets: ['latin'],
   display: 'swap',
+  variable: '--font-moolah',
 });
 
 export const metadata: Metadata = {
@@ -22,12 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <style jsx global>{`
-          .font-moolah {
-            font-family: ${mooLahLah.style.fontFamily};
-          }
-        `}</style>
+      <body className={`${inter.className} ${mooLahLah.variable}`}>
         {children}
       </body>
     </html>
