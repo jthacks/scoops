@@ -13,7 +13,7 @@ export default function ContactNumber() {
       transition={{ type: "spring", stiffness: 260, damping: 20 }}
     >
       <motion.a
-        href="tel:08001234567"
+        href="tel:07578767786"
         className="flex items-center gap-2 bg-accent-400 text-white px-6 py-3 rounded-full shadow-lg"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
