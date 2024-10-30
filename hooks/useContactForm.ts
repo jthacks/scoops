@@ -7,7 +7,7 @@ const initialFormData: ContactFormData = {
   name: '',
   email: '',
   phone: '',
-  numberOfDogs: 1,
+  numberOfDogs: '',
   visitFrequency: 'weekly',
   dogBreeds: '',
   gardenAccess: '',
