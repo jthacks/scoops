@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-50: #e6f3ff;
+  --primary-100: #b3d9ff;
+  --primary-500: #3399ff;
+  --primary-600: #0066cc;
+  --accent-400: #ff99cc;
+  --accent-500: #ff66b3;
+}
+
+.bg-primary-50 { background-color: var(--primary-50); }
+.bg-primary-100 { background-color: var(--primary-100); }
+.bg-primary-500 { background-color: var(--primary-500); }
+.bg-primary-600 { background-color: var(--primary-600); }
+.bg-accent-400 { background-color: var(--accent-400); }
+.bg-accent-500 { background-color: var(--accent-500); }
+
+.text-primary-50 { color: var(--primary-50); }
+.text-primary-100 { color: var(--primary-100); }
+.text-primary-500 { color: var(--primary-500); }
+.text-primary-600 { color: var(--primary-600); }
+.text-accent-400 { color: var(--accent-400); }
+.text-accent-500 { color: var(--accent-500); }
+
+body {
+  color: #333;
+  background: white;
+}
