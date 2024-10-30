@@ -29,10 +29,8 @@ export function useContactForm() {
         body: JSON.stringify(formData),
       });
 
-      const data = await response.json();
-
       if (!response.ok) {
-        throw new Error(data.message || 'Failed to submit form');
+        throw new Error('Failed to submit form');
       }
 
       toast.success('Thank you! We will be in touch soon.');
