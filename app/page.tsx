@@ -8,6 +8,7 @@ import AnimatedSection from './components/AnimatedSection';
 import ContactNumber from './components/ContactNumber';
 import NotificationCard from './components/NotificationCard';
 import TestimonialCard from './components/TestimonialCard';
+import TypeformEmbed from './components/typeform-embed';
 
 export default function Home() {
   return (
@@ -99,8 +100,7 @@ export default function Home() {
           <AnimatedSection>
             <h2 className="text-4xl font-bold text-center mb-12 text-primary-600">Get Started</h2>
             <div className="max-w-2xl mx-auto">
-              <div data-tf-live="01JBEMQE3ZM29PMVRWV442W7XK"></div>
-              <script src="//embed.typeform.com/next/embed.js"></script>
+              <TypeformEmbed />
             </div>
           </AnimatedSection>
         </div>
