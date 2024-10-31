@@ -9,6 +9,7 @@ import ContactNumber from './components/ContactNumber';
 import NotificationCard from './components/NotificationCard';
 import TestimonialCard from './components/TestimonialCard';
 import TypeformEmbed from './components/typeform-embed';
+import WhoUsesSection from '@/app/components/WhoUsesSection';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Header />
       <Hero />
       <ServicesSection />
+      <WhoUsesSection />
 
       {/* Notifications Section */}
       <section className="py-24 bg-primary-50">
