@@ -2,14 +2,14 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ServicesSection from './components/ServicesSection';
-import PricingCalculator from './components/PricingCalculator';
 import Footer from './components/Footer';
 import AnimatedSection from './components/AnimatedSection';
 import ContactNumber from './components/ContactNumber';
 import NotificationCard from './components/NotificationCard';
 import TestimonialCard from './components/TestimonialCard';
 import TypeformEmbed from './components/typeform-embed';
-import WhoUsesSection from '@/app/components/WhoUsesSection';
+import WhoUsesSection from './components/WhoUsesSection';
+import PricingGuideSection from './components/pricing-guide-section';
 
 export default function Home() {
   return (
@@ -46,14 +46,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing Calculator Section */}
+      {/* Pricing Guide Section */}
       <section id="pricing" className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <AnimatedSection>
-            <h2 className="text-4xl font-bold text-center mb-12 text-primary-600">Calculate Your Price</h2>
-            <div className="max-w-xl mx-auto">
-              <PricingCalculator />
-            </div>
+            <PricingGuideSection />
           </AnimatedSection>
         </div>
       </section>
