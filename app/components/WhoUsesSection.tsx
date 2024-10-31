@@ -22,7 +22,7 @@ export default function WhoUsesSection() {
     <section className="py-24 bg-primary-50">
       <div className="container mx-auto px-6">
         <AnimatedSection>
-          <h2 className="text-4xl font-bold text-center mb-6 text-primary-600">Who Uses Poopa Scoopa?</h2>
+          <h2 className="text-4xl font-bold text-center mb-6 text-primary-600">Who Uses Pooopa Scooopa?</h2>
           <p className="text-lg text-center mb-12 text-primary-600/80 max-w-3xl mx-auto">
             We're here to make life easier, cleaner, and more convenient for all types of pet owners across the UK. 
             Our customers value a tidy garden but may not have the time, ability, or desire to keep up with this routine task.

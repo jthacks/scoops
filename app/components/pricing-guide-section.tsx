@@ -13,7 +13,7 @@ export default function PricingGuideSection() {
     <div className="max-w-4xl mx-auto">
       <h2 className="text-4xl font-bold text-center mb-6 text-primary-600">Pricing Guide</h2>
       <p className="text-lg text-center mb-12 text-primary-600/80">
-        At Poopa Scoopa, we keep pricing simple and transparent to meet the needs of every pet owner.
+        At Pooopa Scooopa, we keep pricing simple and transparent to meet the needs of every pet owner.
       </p>
       
       <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -42,7 +42,7 @@ export default function PricingGuideSection() {
           Get a Quote
         </a>
         <a 
-          href="mailto:info@poopascoopa.co.uk" 
+          href="mailto:thepoooopascooopas@gmail.com" 
           className="inline-block bg-primary-600 text-white px-8 py-4 rounded-full font-bold hover:bg-primary-500 transition duration-300 transform hover:scale-105"
         >
           Contact Us
