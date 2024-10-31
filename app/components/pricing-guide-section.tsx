@@ -1,4 +1,12 @@
 export default function PricingGuideSection() {
+  const scrollToContact = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="max-w-4xl mx-auto">
       <h2 className="text-4xl font-bold text-center mb-6 text-primary-600">Pricing Guide</h2>
@@ -25,13 +33,14 @@ export default function PricingGuideSection() {
 
       <div className="text-center space-x-4">
         <a 
-          href="https://form.typeform.com/to/01JBEMQE3ZM29PMVRWV442W7XK" 
+          href="#contact" 
+          onClick={scrollToContact}
           className="inline-block bg-accent-400 text-white px-8 py-4 rounded-full font-bold hover:bg-accent-500 transition duration-300 transform hover:scale-105"
         >
           Get a Quote
         </a>
         <a 
-          href="mailto:thepoooopascooopas@gmail.com" 
+          href="mailto:info@poopascoopa.co.uk" 
           className="inline-block bg-primary-600 text-white px-8 py-4 rounded-full font-bold hover:bg-primary-500 transition duration-300 transform hover:scale-105"
         >
           Contact Us
