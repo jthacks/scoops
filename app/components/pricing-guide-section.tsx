@@ -1,3 +1,5 @@
+'use client';
+
 export default function PricingGuideSection() {
   const scrollToContact = (e: React.MouseEvent) => {
     e.preventDefault();
